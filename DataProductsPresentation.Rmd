@@ -1,0 +1,44 @@
+---
+title: "Statistical Analysis on the Effect of Supplements on Guinea Pigs"
+author: "Janina Reyes"
+date: "January 23, 2019"
+output: slidy_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Background
+
+The response is the length of odontoblasts (cells responsible for tooth growth) in 60 guinea pigs. Each animal received one of three dose levels of vitamin C (0.5, 1, and 2 mg/day) by one of two delivery methods, orange juice or ascorbic acid (a form of vitamin C and coded as VC). 
+
+
+
+## Variables used
+
+```{r ToothGrowth, echo = TRUE}
+summary(ToothGrowth)
+```
+
+## Shiny Application
+
+The link to the application is indicated:
+
+https://jeareyes17.shinyapps.io/dataproductscourseproject/
+
+- The user can view the comparison between the type of supplements taken, whether orange juice or vitamin C or the dosage taken.
+
+- The shiny application displays the following:
+  a. Boxplot between for each classification
+  b. Summary of the fitted model
+
+## Source
+
+- McNeil, D. R. (1977). Interactive Data Analysis. New York: Wiley. 
+
+- Crampton, E. W. (1947). The growth of the odontoblast of the incisor teeth as a criterion of vitamin C intake of the guinea pig. The Journal of Nutrition, 33(5), 491–504. doi: 10.1093/jn/33.5.491. 
+
+
+
+
