@@ -1,4 +1,4 @@
-# dataproductscourseproject
+# Developing Data Products Course Project
 
 This contains the course project requirements of the Coursera Developing Data Products
 
